@@ -29,6 +29,7 @@
     line-height: 24px;
     height: 52px;
     transition: .6s ease;
+    width: 100%;
 }
 
 .card-information h3, li {

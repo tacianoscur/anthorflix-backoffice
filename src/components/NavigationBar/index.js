@@ -6,18 +6,23 @@ const NavigationBar = () => {
             <h1>
                 Anthorflix
             </h1>
+            {/*
             <div className='links'>
                 <a href='/'>
                     Home
                 </a>
-                <a href='/ratings' style={{
-                    color: "#ffff",
-                    backgroundColor: "#6c757d",
-                    borderRadius: "8px",
-                }}>
-                    My Ratings
-                </a>
+                
+                    <a href='/ratings' style={{
+                        color: "#ffff",
+                        backgroundColor: "#6c757d",
+                        borderRadius: "8px",
+                    }}>
+                        My Ratings
+                    </a>
+                
+                
             </div>
+            */}
         </nav>
     );
 };

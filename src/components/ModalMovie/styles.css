@@ -1,0 +1,113 @@
+.modal-container {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-container-display {
+    display: block;
+}
+
+.modal-container-no-display {
+    display: none;
+}
+
+.modal-container .modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 30px;
+    border: 1px solid #888;
+    border-radius: 30px;
+    max-width: 800px;
+}
+
+.modal-container .modal-content .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+  
+.modal-container .modal-content .close:hover,
+.modal-container .modal-content .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-container .modal-content .modal-header {
+    display: flex;
+    flex-direction: row;   
+}
+
+.modal-container .modal-content .modal-header img {
+    border-radius: 10px;
+    width: 20%;
+    height: 25%;
+}
+
+.modal-container .modal-content .general-info {
+    width: 100%;
+    margin: 0px 5%;
+}
+
+.modal-container .modal-content .general-info h1 {
+    text-align: center;
+}
+
+.modal-container .modal-content .general-info ul {
+    list-style-type: none;
+    margin: 10px 0px;
+    padding: 0;
+    overflow: hidden;
+}
+
+.modal-container .modal-content .general-info li {
+    font-size: 14px;
+    margin-right: 5px;
+    float: left;
+    color: #000;
+}
+
+.modal-container .modal-content .general-info p {
+    font-size: 14px;
+    margin-right: 5px;
+    margin: 10px 0px;
+}
+
+.modal-container .modal-content .buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.modal-container .modal-content .buttons input {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    background-color: #d00000;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
+.modal-container .modal-content .buttons input:hover{
+    background-color: #6a040f;
+}
+
+@media (max-width: 590px) {
+    .modal-container .modal-content .modal-header {
+        flex-direction: column;
+    }
+
+    .modal-container .modal-content .modal-header img {
+        width: 100%;
+        margin-top: 50px;
+    }
+}
