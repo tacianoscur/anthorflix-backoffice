@@ -6,7 +6,7 @@ import './styles.css';
 
 const MovieCard = ({ movie, handleSelectMovie }) => {
     return (
-        <a href="#" onClick={() => handleSelectMovie(movie)}>
+        <a href="/#" onClick={() => handleSelectMovie(movie)}>
             <div className='card'>
                 <div className='card-container'>
                     <div className='card-information'>
